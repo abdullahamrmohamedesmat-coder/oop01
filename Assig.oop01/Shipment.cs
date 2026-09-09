@@ -17,7 +17,7 @@ namespace Assig.oop01
         public string Description {
             get {
 
-                return Description;            
+                return description;            
             
                 }
             set
@@ -46,9 +46,10 @@ namespace Assig.oop01
             get
             {
 
-                return DeliveryFee;
+                return deliveryFee;
             }
-            set { DeliveryFee = value; }
+            set { deliveryFee = value; }
         }
+
     }
 }
