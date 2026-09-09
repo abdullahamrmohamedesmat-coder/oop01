@@ -49,18 +49,30 @@ namespace Assig.oop01
 
             #region Question 3
             //3st answer
-            DeliveryAddress deliveryAdddress = new DeliveryAddress("Cairo", "Abbass", 33);
-            DeliveryAddress deliveryAddress01;
-            deliveryAddress01 = deliveryAdddress;
-            Console.WriteLine(deliveryAdddress.GetAddress());
-            Console.WriteLine(deliveryAddress01.GetAddress());
-            Console.WriteLine();
-            deliveryAddress01.city = "Giza";
-            deliveryAddress01.street = "Alharam";
-            deliveryAddress01.buildingNumber = 23;
-            Console.WriteLine(deliveryAdddress.GetAddress());
-            Console.WriteLine(deliveryAddress01.GetAddress());
-            Console.WriteLine(); 
+            //DeliveryAddress deliveryAdddress = new DeliveryAddress("Cairo", "Abbass", 33);
+            //DeliveryAddress deliveryAddress01;
+            //deliveryAddress01 = deliveryAdddress;
+            //Console.WriteLine(deliveryAdddress.GetAddress());
+            //Console.WriteLine(deliveryAddress01.GetAddress());
+            //Console.WriteLine();
+            //deliveryAddress01.city = "Giza";
+            //deliveryAddress01.street = "Alharam";
+            //deliveryAddress01.buildingNumber = 23;
+            //Console.WriteLine(deliveryAdddress.GetAddress());
+            //Console.WriteLine(deliveryAddress01.GetAddress());
+            //Console.WriteLine(); 
+            #endregion
+
+            #region Question 4
+            //4st answer
+            DeliveryCenter deliveryCenter = new DeliveryCenter();
+            Shipment shipment = new Shipment();
+            Shipment shipment1 = new Shipment();
+            Shipment shipment2 = new Shipment();
+            Console.WriteLine("enter shipments");
+            deliveryCenter.AddShipment(shipment);
+            deliveryCenter.AddShipment(shipment1);
+            deliveryCenter.AddShipment(shipment2); 
             #endregion
         }
     }

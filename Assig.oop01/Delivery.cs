@@ -11,17 +11,17 @@ namespace Assig.oop01
         public string city { get; set; }
         public string street { get; set; }
         public int buildingNumber { get; set; }
-        public DeliveryAddress(string City,string Street,int BuildingNumber)
+        public DeliveryAddress(string City, string Street, int BuildingNumber)
         {
-            city = City; 
-             street=Street;
+            city = City;
+            street = Street;
             buildingNumber = BuildingNumber;
         }
-      
+
 
         public string GetAddress()
         {
-            return $"{buildingNumber}, { city}, {street}";
+            return $"{buildingNumber}, {city}, {street}";
         }
     }
 }
