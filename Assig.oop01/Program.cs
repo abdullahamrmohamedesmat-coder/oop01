@@ -38,6 +38,15 @@ namespace Assig.oop01
             Console.WriteLine(customer2);//class is Ref Type ,affected 
             #endregion
 
+            #region Question 2
+            //2st answer
+            Shipment shipment = new Shipment();
+            shipment.Description = "test";
+            Console.WriteLine(shipment.Description);
+
+            
+            #endregion
+
         }
     }
 }
